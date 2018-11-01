@@ -1,18 +1,150 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+<title>HYERIM HYUN - Curriculum Vitae</title>
 
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
+<meta charset="UTF-8"> 
 
-{% include career-profile.html %}
+<link type="text/css" rel="stylesheet" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="headshot.jpg" alt="Alan Smith" />
+		</div>
+		
+		<div id="name">
+			<h1 class="quickFade delayTwo">HYERIM HYUN</h1>
+			<!-- <h2 class="quickFade delayThree">Job Title</h2> -->
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li>e: <a href="mailto:joe@bloggs.com" target="_blank">hyerim.dev@gmail.com</a></li>
+				<!-- <li>w: <a href="http://www.bloggs.com"></a></li> -->
+				<li>m: 01098745819</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Personal Profile</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p></p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Works Mobile/Service Manager</h2>
+					<p class="subDetails">03.2018 - Present</p>
+					<!-- <p>Service Manager</p> -->
+				</article>
+				
+				<article>
+					<h2>Epicerie/UX Designer,Engineer</h2>
+					<p class="subDetails">07.2015 - 05.2017</p>
+					<p>Grocery Delivery Service</p>
+					<p>- Co-founded an on-demand grocery delivery startup, acquired Inmost Partners in Jul 2017.</p>
+					<p>- Built and deployed responsive web application using HTML, CSS, Javascript and PHP.</p>
+					<p>- Built android application for delivery using JAVA, Rest API and MySQL
+				</article>
+				
+				<!-- <article>
+					<h2>Job Title at Company</h2>
+					<p class="subDetails">October 2004 - December 2006</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+				</article> -->
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Skills</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>HTML/CSS</li>
+					<li>Javascript</li>
+					<li>JAVA</li>
+					<li>MySQL</li>
+					<li>PHP</li>
+					<li>Photoshop</li>
+					<li>Sketch</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+			
+			<div class="sectionContent">
+				
+				<article>
+					<h2>Industrial Engineering/Ajou University</h2>
+					<p class="subDetails">Qualification</p>
+					<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p> -->
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
 
-{% include experiences.html %}
-
-{% include projects.html %}
-
-{% include publications.html %}
-
-{% include skills.html %}
+		<section>
+			<div class="sectionTitle">
+				<h1>Award</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>T전화 UI/UX 디자인 공모전 최우수상</h2>
+					<p class="subDetails">SK Telecom</p>
+					<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p> -->
+				</article>
+				
+				
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+	</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
