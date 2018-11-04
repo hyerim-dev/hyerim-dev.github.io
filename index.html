@@ -1,150 +1,229 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>HYERIM HYUN - Curriculum Vitae</title>
-
-<meta name="viewport" content="width=device-width"/>
-<meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
-<meta charset="UTF-8"> 
-
-<link type="text/css" rel="stylesheet" href="style.css">
-<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
-
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+	<title>HYERIM CV</title>
+	<meta charset="UTF-8"> 
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 </head>
-<body id="top">
-<div id="cv" class="instaFade">
-	<div class="mainDetails">
-		<div id="headshot" class="quickFade">
-			<img src="headshot.jpg" alt="Alan Smith" />
-		</div>
-		
-		<div id="name">
-			<h1 class="quickFade delayTwo">HYERIM HYUN</h1>
-			<!-- <h2 class="quickFade delayThree">Job Title</h2> -->
-		</div>
-		
-		<div id="contactDetails" class="quickFade delayFour">
-			<ul>
-				<li>e: <a href="mailto:joe@bloggs.com" target="_blank">hyerim.dev@gmail.com</a></li>
-				<!-- <li>w: <a href="http://www.bloggs.com"></a></li> -->
-				<li>m: 01098745819</li>
-			</ul>
-		</div>
-		<div class="clear"></div>
-	</div>
-	
-	<div id="mainArea" class="quickFade delayFive">
-		<section>
-			<article>
-				<div class="sectionTitle">
-					<h1>Personal Profile</h1>
-				</div>
-				
-				<div class="sectionContent">
-					<p></p>
-				</div>
-			</article>
-			<div class="clear"></div>
-		</section>
-		
-		
-		<section>
-			<div class="sectionTitle">
-				<h1>Work Experience</h1>
-			</div>
-			
-			<div class="sectionContent">
-				<article>
-					<h2>Works Mobile/Service Manager</h2>
-					<p class="subDetails">03.2018 - Present</p>
-					<!-- <p>Service Manager</p> -->
-				</article>
-				
-				<article>
-					<h2>Epicerie/UX Designer,Engineer</h2>
-					<p class="subDetails">07.2015 - 05.2017</p>
-					<p>Grocery Delivery Service</p>
-					<p>- Co-founded an on-demand grocery delivery startup, acquired Inmost Partners in Jul 2017.</p>
-					<p>- Built and deployed responsive web application using HTML, CSS, Javascript and PHP.</p>
-					<p>- Built android application for delivery using JAVA, Rest API and MySQL
-				</article>
-				
-				<!-- <article>
-					<h2>Job Title at Company</h2>
-					<p class="subDetails">October 2004 - December 2006</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-				</article> -->
-			</div>
-			<div class="clear"></div>
-		</section>
-		
-		
-		<section>
-			<div class="sectionTitle">
-				<h1>Key Skills</h1>
-			</div>
-			
-			<div class="sectionContent">
-				<ul class="keySkills">
-					<li>HTML/CSS</li>
-					<li>Javascript</li>
-					<li>JAVA</li>
-					<li>MySQL</li>
-					<li>PHP</li>
-					<li>Photoshop</li>
-					<li>Sketch</li>
-				</ul>
-			</div>
-			<div class="clear"></div>
-		</section>
-		
-		
-		<section>
-			<div class="sectionTitle">
-				<h1>Education</h1>
-			</div>
-			
-			<div class="sectionContent">
-				
-				<article>
-					<h2>Industrial Engineering/Ajou University</h2>
-					<p class="subDetails">Qualification</p>
-					<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p> -->
-				</article>
-			</div>
-			<div class="clear"></div>
-		</section>
 
-		<section>
-			<div class="sectionTitle">
-				<h1>Award</h1>
-			</div>
-			
-			<div class="sectionContent">
-				<article>
-					<h2>T전화 UI/UX 디자인 공모전 최우수상</h2>
-					<p class="subDetails">SK Telecom</p>
-					<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p> -->
-				</article>
-				
-				
-			</div>
-			<div class="clear"></div>
-		</section>
+
+<style>
+	body{
+		margin: auto;
+		font-family: 'Roboto Mono', monospace;
+	}
+
+	page[size="A4"] {
+	  background: white;
+	  width: 21cm;
+	  height: 29.7cm;
+	  display: block;
+	  margin: 30px auto;
+	  margin-bottom: 0.5cm;
+	  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+	}
+
+	#top{
+		width:100%;
+		height: 300px;
+		/*background-image: url('headshot.jpg');*/
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 30%;
+		background: #158ad0;
+		color:#fff;
+	}
+
+	.overlay{
+		width: 100%;
+		height: 300px;
+		margin:auto;
+		font-family: 'Roboto Mono', monospace;
+		font-size: 17px;
+		padding-top: 110px;
+		padding-left: 30px;
+	}
+
+	.overlay div{
 		
+	}
+
+	.overlay div h3{
+	  color: #fff; 
+	  font-size: 20px;
+	  margin: 10px 0 0 10px;
+	  white-space: nowrap;
+	  overflow: hidden;
+	  width: 30em;
+	  animation: type 4s steps(60, end); 
+	}
+
+	.overlay span{
+	  animation: blink 1s infinite;
+	}
+
+	.overlay div h3:nth-child(2){
+	  animation: type2 4s steps(200, end);
+	}
+
+	@keyframes type{ 
+	  from { width: 0; } 
+	} 
+
+	@keyframes type2{
+	  0%{width: 0;}
+	  50%{width: 0;}
+	  100%{ width: 100; } 
+	} 
+
+	@keyframes blink{
+	  to{opacity: .0;}
+	}
+
+
+	::selection{
+	  background: black;
+	}
+
+	#content{
+		width:100%;
+		padding: 30px;
+		padding-top: 50px;
+	}
+
+	.first-area{
+		width:53%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.second-area{
+		width:42%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	section{
+		color:#555;
+		margin-bottom: 50px;
+	}
+
+	article{
+		margin-bottom: 35px;
+	}
+
+	ul{
+		font-size:13px;
+		line-height: 1.7;
+		font-weight: 200
+	}
+
+	.section-title{
+		width:90%;
+		color: #158ad0;
+		border-bottom: 1px solid #eaeaea;
+		margin-bottom: 20px;
+	}
+
+	.section-sub-title{
+		font-size: 15px;
+		color:#333;
+	}
+
+	.date{
+		font-size: 12px;
+		color:#555;
+	}
+
+	.role{
+		padding-top: 5px;
+		font-size:13px;
+	}
+
+
+
+
+
+</style>
+
+<body>
+<page size="A4">
+		<div id="top">
+			<div class="overlay">
+				<div>
+					<h3>Hello. I'm Hyerim</h3>
+					<h3>Welcome to my pages :D <span>|</span></h3>
+				</div>
+				
+			</div>
+		</div>
+		
+	<div id="content">		
+		<div class="first-area">
+			<section>
+				<div class="section-title">EXPERIENCE</div>
+				<article>
+					<div class="section-sub-title">WORKS MOBILE <span class="date">03.2018 - present</span> </div>
+						<div class="role">Service Manager</div>
+						<ul>
+							<li>Building the guide site using Wordpress</li>
+						</ul>
+				</article>
+				<article>
+					<div class="section-sub-title">EPICERIE <span class="date">05.2015 - 05.2017</span></div>
+						<div class="role">UX Designer, Engineer</div>
+						<ul>
+							<li>Co-founded an on-demand grocery delivery startup, acquired Inmost Partners in Jul 2017</li>
+							<li>Built and deployed responsive web application using HTML, CSS, Javascript and PHP</li>
+							<li>Built android application for delivery using JAVA, Rest API and MySQL</li>
+						</ul>
+				</article>
+			</section>
+
+			<section>
+				<div class="section-title">SKILL</div>
+				<article>
+					<div class="section-sub-title">Language</div>
+					<div class="role">HTML CSS JAVASCRIPT JQUERY JAVA PHP MYSQL</div>
+				</article>
+				<article>
+					<div class="section-sub-title">GRAPHIC</div>
+					<div class="role">PHOTOSHOP SKETCH ADOBEXD</div>
+				</article>
+			</section>
+
+		</div>
+		<div class="second-area">
+			<section>
+				<div class="section-title">EDUCATION</div>
+				<article>
+					<div class="section-sub-title">Ajou University <span class="date">03.2011 - 07.2017</span></div>
+					<div class="role">Industrial Engineering</div>
+				</article>
+			
+			</section>
+
+			<section>
+				<div class="section-title">AWARD</div>
+				<article>
+					<div class="section-sub-title">UI/UX Design Competition <span class="date"></span></div>
+					<div class="role">SK Telecom / 04.2014</div>
+				</article>
+			</section>
+
+			<section>
+				<div class="section-title">INTEREST</div>
+				
+			</section>
+		</div>
 	</div>
-</div>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-3753241-1");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
+
+	<footer>
+		
+	</footer>
+</page>
+
 </body>
+
 </html>
